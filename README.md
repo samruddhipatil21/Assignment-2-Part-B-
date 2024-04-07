@@ -5,8 +5,8 @@ PyTorch, PyTorch Lightning framework to train a fine-tuned **ResNet18 model**
 1. Install the required libraries:
 ```python
 !pip install pytorch_lightning
-!curl -SL https://storage.googleapis.com/wandb_datasets/nature_12K.zip > Asg2_Dataset.zip
-!unzip Asg2_Dataset.zip
+!curl -SL https://storage.googleapis.com/wandb_datasets/nature_12K.zip > DATASET.zip
+!unzip DATASET.zip
 !pip install wandb
 ```
 2. Give path for the dataset.
